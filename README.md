@@ -145,7 +145,7 @@ Secure credentials and server addresses are managed in **`config.h`**.
    - ThingSpeak updates
    - Local buzzer alerts
 
-**...or [view the live data dashboard on ThingSpeak](https://thingspeak.mathworks.com/channels/3136403)!**
+   **...or [view the live data dashboard on ThingSpeak](https://thingspeak.mathworks.com/channels/3136403)!**
 
 ---
 
