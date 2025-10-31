@@ -1,0 +1,59 @@
+# -----------------------------------------------------
+# RockShield AI Project Root .gitignore
+# -----------------------------------------------------
+
+# CRITICAL: Ignore all files named 'config.h' anywhere in the repository.
+# This prevents accidentally committing sensitive credentials (WiFi, API keys).
+# This is a key file inside your 'RockShield - AI - Hardware' folder.
+**/config.h
+
+# -----------------------------------------------------
+# Microcontroller / Arduino Files
+# -----------------------------------------------------
+
+# Ignore common build outputs from Arduino IDE or PlatformIO
+build/
+*.hex
+*.elf
+*.bin
+*.map
+*.o
+.pio/
+
+# -----------------------------------------------------
+# Data Science / ML Model Files (Inside 'RockShield - AI - ML MODEL')
+# -----------------------------------------------------
+
+# Jupyter Notebook checkpoints and data caches
+.ipynb_checkpoints/
+
+# Data files used for training (often large or sensitive)
+# If this file is used in your Colab/ML workflow
+landslide_merged_demo.csv
+
+# Saved ML Model file (often large, should be regenerated or stored separately)
+rf_landslide_classifier.pkl
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Virtual environment directory
+venv/
+.venv/
+
+# -----------------------------------------------------
+# Operating System & IDE Specific
+# -----------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Visual Studio Code (VS Code)
+.vscode/
+
+# PyCharm / IntelliJ IDEs
+.idea/
