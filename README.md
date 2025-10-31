@@ -17,6 +17,11 @@ Watch the system sample data, process the risk via the ML API, and trigger the l
 
 ![RockShield AI Demo GIF](assets/rockshield_demo.gif)
 
+### 📊 View the Live Data Dashboard
+**Check out the live sensor readings on our public ThingSpeak Channel:**
+
+[**https://thingspeak.com/channels/YOUR_CHANNEL_ID**](https://thingspeak.mathworks.com/channels/3136403)
+
 ---
 
 ## ⚙️ Project Overview
@@ -139,6 +144,8 @@ Secure credentials and server addresses are managed in **`config.h`**.
    - ML API responses
    - ThingSpeak updates
    - Local buzzer alerts
+
+**...or [view the live data dashboard on ThingSpeak](https://thingspeak.mathworks.com/channels/3136403)!**
 
 ---
 
