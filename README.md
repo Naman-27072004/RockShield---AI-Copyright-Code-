@@ -20,7 +20,7 @@ Watch the system sample data, process the risk via the ML API, and trigger the l
 ### 📊 View the Live Data Dashboard
 **Check out the live sensor readings on our public ThingSpeak Channel:**
 
-[**https://thingspeak.com/channels/YOUR_CHANNEL_ID**](https://thingspeak.mathworks.com/channels/3136403)
+[**https://thingspeak.mathworks.com/channels/3136403**](https://thingspeak.mathworks.com/channels/3136403)
 
 ---
 
