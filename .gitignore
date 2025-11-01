@@ -29,10 +29,10 @@ build/
 
 # Data files used for training (often large or sensitive)
 # If this file is used in your Colab/ML workflow
-landslide_merged_demo.csv
+# landslide_merged_demo.csv
 
 # Saved ML Model file (often large, should be regenerated or stored separately)
-rf_landslide_classifier.pkl
+# rf_landslide_classifier.pkl
 
 # Python temporary files
 __pycache__/
